@@ -1,16 +1,15 @@
-import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.css';
+// import Navbar from './components/navbar';
+import Navbar from './components/navbar';
 import './App.css';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <button type="button" class="btn btn-primary">Primary</button>
-      </header>
-      
+
+      <Navbar />
+
     </div>
   );
 }
